@@ -48,7 +48,7 @@ var pMOH = pLta.clone()
 
 var pCentral = pLta.clone()
     .attr('.label/text', 'Central Broker')
-    .position(100, 250)
+    .position(140, 250)
     .set('tokens', 0);
 
 var pAnalytics = new pn.Transition({
@@ -109,8 +109,8 @@ var pSubscribe4 = pPublish.clone()
     .position(260, 450);
 
 var pSubscribe5 = pPublish.clone()
-    .attr('.label/text', 'Publish')
-    .position(30, 250);
+    .attr('.label/text', 'Subscribe')
+    .position(80, 250);
 
 function link(a, b) {
 
